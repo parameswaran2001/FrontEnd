@@ -331,7 +331,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49990629
 GameObject:
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 52082617}
   - component: {fileID: 52082616}
   m_Layer: 0
-  m_Name: Toilet A-209
+  m_Name: 'A-209 Toilet '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 57276049}
   - component: {fileID: 57276048}
   m_Layer: 0
-  m_Name: EC & M1 Lab B-11
+  m_Name: 'B-11 EC & M1 Lab '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -956,7 +956,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &101332479
 GameObject:
@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 105951049}
   - component: {fileID: 105951048}
   m_Layer: 0
-  m_Name: Staff Room B-09
+  m_Name: 'B-09 Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 163157637}
   - component: {fileID: 163157636}
   m_Layer: 0
-  m_Name: Lecture Hall A-109 EC-1
+  m_Name: 'A-109 EC-1 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -1248,128 +1248,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163157634}
   m_Mesh: {fileID: -2228417370725966487, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
---- !u!1 &167028903
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 167028907}
-  - component: {fileID: 167028906}
-  - component: {fileID: 167028905}
-  - component: {fileID: 167028904}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &167028904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167028903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 167028905}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &167028905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167028903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &167028906
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167028903}
-  m_CullTransparentMesh: 1
---- !u!224 &167028907
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167028903}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 36.26}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1860064641}
-  m_Father: {fileID: 0}
-  m_RootOrder: 61
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.24, y: 10.19}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &179249869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1382,7 +1260,7 @@ GameObject:
   - component: {fileID: 179249872}
   - component: {fileID: 179249871}
   m_Layer: 0
-  m_Name: Board Room
+  m_Name: A-20BR Board Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -1876,7 +1754,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
 --- !u!1 &230676632
 GameObject:
@@ -1890,7 +1768,7 @@ GameObject:
   - component: {fileID: 230676635}
   - component: {fileID: 230676634}
   m_Layer: 0
-  m_Name: Lecture Hall A-106 ME-2
+  m_Name: 'A-106 ME-2 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -2180,7 +2058,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &278168430
 GameObject:
@@ -2639,7 +2517,7 @@ GameObject:
   - component: {fileID: 315344747}
   - component: {fileID: 315344746}
   m_Layer: 0
-  m_Name: Bursar's Office
+  m_Name: A-20BO Bursar's Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -2889,7 +2767,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!1 &365689792
 GameObject:
@@ -2944,7 +2822,7 @@ GameObject:
   - component: {fileID: 373514095}
   - component: {fileID: 373514094}
   m_Layer: 0
-  m_Name: Digital Electronics Lab B-117
+  m_Name: 'B-117 Digital Electronics Lab '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -3111,7 +2989,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
 --- !u!1 &395646822
 GameObject:
@@ -3285,7 +3163,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh38024
+  m_Name: pb_Mesh52994
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3539,7 +3417,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!1 &464591986
 GameObject:
@@ -3553,7 +3431,7 @@ GameObject:
   - component: {fileID: 464591989}
   - component: {fileID: 464591988}
   m_Layer: 0
-  m_Name: 'Washroom '
+  m_Name: 'A-20W Washroom '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -3705,7 +3583,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &511364305
 Mesh:
@@ -3713,7 +3591,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh37386
+  m_Name: pb_Mesh52346
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3883,7 +3761,7 @@ GameObject:
   - component: {fileID: 527570363}
   - component: {fileID: 527570362}
   m_Layer: 0
-  m_Name: Lecture Hall A-107 ME-1
+  m_Name: 'A-107 ME-1 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -3966,7 +3844,7 @@ GameObject:
   - component: {fileID: 548304174}
   - component: {fileID: 548304173}
   m_Layer: 0
-  m_Name: Lecture Hall B-213
+  m_Name: 'B-213 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -4049,7 +3927,7 @@ GameObject:
   - component: {fileID: 549305296}
   - component: {fileID: 549305295}
   m_Layer: 0
-  m_Name: Maintainance Cell
+  m_Name: B-20MC Maintainance Cell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4201,7 +4079,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &572099335
 GameObject:
@@ -4284,7 +4162,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &581138349
 GameObject:
@@ -4298,7 +4176,7 @@ GameObject:
   - component: {fileID: 581138352}
   - component: {fileID: 581138351}
   m_Layer: 0
-  m_Name: Conference Hall A-201
+  m_Name: 'A-201 Conference Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -4611,7 +4489,7 @@ GameObject:
   - component: {fileID: 664588310}
   - component: {fileID: 664588309}
   m_Layer: 0
-  m_Name: Staff Room A-102
+  m_Name: A-102 Staff Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -4861,7 +4739,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722155180
 GameObject:
@@ -4959,7 +4837,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
 --- !u!1 &726347693
 GameObject:
@@ -5056,7 +4934,7 @@ GameObject:
   - component: {fileID: 736825798}
   - component: {fileID: 736825797}
   m_Layer: 0
-  m_Name: Project Lab -2 B-209
+  m_Name: 'B-209 Project Lab -2 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -5153,12 +5031,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784096394}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -3.9755282, y: 0.52, z: -6.7199993}
-  m_LocalScale: {x: 0.1087211, y: 2.7020903, z: 0.10300324}
+  m_LocalPosition: {x: -14.412632, y: 4.42, z: 30.341005}
+  m_LocalScale: {x: 0.1087211, y: 2.7020898, z: 0.103003226}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1758951048}
-  m_RootOrder: 12
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &784096396
 MeshRenderer:
@@ -5222,7 +5100,7 @@ GameObject:
   - component: {fileID: 791329803}
   - component: {fileID: 791329802}
   m_Layer: 0
-  m_Name: 'Senatus Hall '
+  m_Name: 'A-20S Senatus Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -5388,7 +5266,7 @@ GameObject:
   - component: {fileID: 807696423}
   - component: {fileID: 807696422}
   m_Layer: 0
-  m_Name: Staff Room B-111
+  m_Name: 'B-111 Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -5573,7 +5451,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &824135234
 Transform:
@@ -5582,14 +5460,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824135233}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.247, y: -1.632, z: 11.8}
-  m_LocalScale: {x: 0.21726044, y: 0.30378246, z: 0.27386048}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.981, y: -1.755638, z: 12.34}
+  m_LocalScale: {x: 0.25621158, y: 0.30378246, z: 0.07249004}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450653311986923}
   m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!64 &824135235
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5624,7 +5502,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1969a00cf5d937e4c817ed595f383cc1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5735,7 +5613,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &841538337
 GameObject:
@@ -5749,7 +5627,7 @@ GameObject:
   - component: {fileID: 841538340}
   - component: {fileID: 841538339}
   m_Layer: 0
-  m_Name: 'Staff Room (CS) B-300(a) '
+  m_Name: 'B-300(a) Staff Room (CS) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -5832,7 +5710,7 @@ GameObject:
   - component: {fileID: 857909332}
   - component: {fileID: 857909331}
   m_Layer: 0
-  m_Name: Basic Electronics Lab A-104
+  m_Name: A-104 Basic Electronics Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -6233,7 +6111,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910858397
 GameObject:
@@ -6415,9 +6293,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe9ab3b162fb77459bba3d66c143594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camTarg: {fileID: 1855151114}
-  camOffset: {x: 0, y: 0, z: 0}
-  smoothFactor: 0.5
+  target: {fileID: 0}
+  distance: 3
+  height: 1.5
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &930563532
 GameObject:
   m_ObjectHideFlags: 0
@@ -6499,7 +6380,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &949762279
 GameObject:
@@ -6665,7 +6546,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &962909546
 GameObject:
@@ -6762,7 +6643,7 @@ GameObject:
   - component: {fileID: 968115754}
   - component: {fileID: 968115753}
   m_Layer: 0
-  m_Name: Staff Room A-103
+  m_Name: 'A-103 Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -6914,7 +6795,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &968856243
 GameObject:
@@ -6997,7 +6878,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &979785753
 GameObject:
@@ -7111,7 +6992,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &992406316
 GameObject:
@@ -7194,7 +7075,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1009774475
 GameObject:
@@ -7291,7 +7172,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1020844358
 GameObject:
@@ -7457,7 +7338,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1077144774
 GameObject:
@@ -7582,7 +7463,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1100245967
 GameObject:
@@ -8056,7 +7937,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1139114852
 GameObject:
@@ -8320,7 +8201,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1193331879
 GameObject:
@@ -8583,7 +8464,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1207450014
 GameObject:
@@ -8666,7 +8547,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1209042342
 GameObject:
@@ -8680,7 +8561,7 @@ GameObject:
   - component: {fileID: 1209042345}
   - component: {fileID: 1209042344}
   m_Layer: 0
-  m_Name: Staff Room B-211
+  m_Name: 'B-211 Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -8846,7 +8727,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1214382576
 GameObject:
@@ -8860,7 +8741,7 @@ GameObject:
   - component: {fileID: 1214382579}
   - component: {fileID: 1214382578}
   m_Layer: 0
-  m_Name: AI Lab B-204
+  m_Name: 'B-204 AI Lab '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -9109,7 +8990,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!1 &1245454993
 GameObject:
@@ -9123,7 +9004,7 @@ GameObject:
   - component: {fileID: 1245454996}
   - component: {fileID: 1245454995}
   m_Layer: 0
-  m_Name: Language Lab A-105
+  m_Name: 'A-105 Language Lab '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -9275,7 +9156,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1263602528
 GameObject:
@@ -9373,7 +9254,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
 --- !u!1 &1268345110
 GameObject:
@@ -9471,7 +9352,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1275895097
 GameObject:
@@ -10042,7 +9923,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -32.438}
 --- !u!1 &1361470712
 GameObject:
@@ -10703,7 +10584,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1469833932
 GameObject:
@@ -10814,7 +10695,7 @@ GameObject:
   - component: {fileID: 1470011429}
   - component: {fileID: 1470011428}
   m_Layer: 0
-  m_Name: Principal A-203
+  m_Name: 'A-203 Principal '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -11131,7 +11012,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1558673366
 GameObject:
@@ -11228,7 +11109,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!1 &1563603003
 GameObject:
@@ -11325,7 +11206,7 @@ GameObject:
   - component: {fileID: 1577846251}
   - component: {fileID: 1577846250}
   m_Layer: 0
-  m_Name: Girls' Washroom A-10GW
+  m_Name: 'A-10GW Girls'' Washroom '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -11408,7 +11289,7 @@ GameObject:
   - component: {fileID: 1580161577}
   - component: {fileID: 1580161576}
   m_Layer: 0
-  m_Name: Lecture Hall A-108 EC-2
+  m_Name: A-108 EC-2 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -11560,7 +11441,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1589565457
 GameObject:
@@ -11643,7 +11524,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590223104
 GameObject:
@@ -11921,7 +11802,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 90}
 --- !u!1 &1628338971
 GameObject:
@@ -12018,7 +11899,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1672632942
 GameObject:
@@ -12115,7 +11996,7 @@ GameObject:
   - component: {fileID: 1673461102}
   - component: {fileID: 1673461101}
   m_Layer: 0
-  m_Name: Staff Room A-208
+  m_Name: A-208 Staff Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -12198,7 +12079,7 @@ GameObject:
   - component: {fileID: 1687695513}
   - component: {fileID: 1687695512}
   m_Layer: 0
-  m_Name: Staff Room B-09 (1)
+  m_Name: 'B-09 (1) Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -12281,7 +12162,7 @@ GameObject:
   - component: {fileID: 1690063204}
   - component: {fileID: 1690063203}
   m_Layer: 0
-  m_Name: Staff Room B-13
+  m_Name: 'B-13 Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12601,7 +12482,7 @@ GameObject:
   - component: {fileID: 1715844259}
   - component: {fileID: 1715844258}
   m_Layer: 0
-  m_Name: Staff Room B-219
+  m_Name: 'B-219 Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12753,7 +12634,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1732721799
 GameObject:
@@ -12840,8 +12721,6 @@ Transform:
   - {fileID: 1187514422494432576}
   - {fileID: 7129599249003837633}
   - {fileID: 2004606507}
-  - {fileID: 5071954541229344743}
-  - {fileID: 784096395}
   - {fileID: 1761340548}
   m_Father: {fileID: 543450653311986923}
   m_RootOrder: 4
@@ -12858,7 +12737,7 @@ GameObject:
   - component: {fileID: 1761340550}
   - component: {fileID: 1761340549}
   m_Layer: 0
-  m_Name: Vice Principal's Office
+  m_Name: A-30VP Vice Principal's Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -12877,7 +12756,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1758951048}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
 --- !u!23 &1761340549
 MeshRenderer:
@@ -12935,7 +12814,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh38716
+  m_Name: pb_Mesh53694
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13105,7 +12984,7 @@ GameObject:
   - component: {fileID: 1786525270}
   - component: {fileID: 1786525269}
   m_Layer: 0
-  m_Name: Communication Engineering Lab B-217
+  m_Name: 'B-217 Communication Engineering Lab '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -13354,7 +13233,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1852223386
 GameObject:
@@ -13368,7 +13247,7 @@ GameObject:
   - component: {fileID: 1852223389}
   - component: {fileID: 1852223388}
   m_Layer: 0
-  m_Name: Visitors Room A-101
+  m_Name: 'A-101 Visitors Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -13574,141 +13453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goal: {fileID: 1102425037}
---- !u!1 &1860064640
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1860064641}
-  - component: {fileID: 1860064643}
-  - component: {fileID: 1860064642}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1860064641
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860064640}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 167028907}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1860064642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860064640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Exit
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 0
-  m_fontSizeBase: 0
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1860064643
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860064640}
-  m_CullTransparentMesh: 1
+  resetLocation: {fileID: 0}
 --- !u!1 &1862988983
 GameObject:
   m_ObjectHideFlags: 0
@@ -13902,7 +13647,7 @@ GameObject:
   - component: {fileID: 1897804255}
   - component: {fileID: 1897804254}
   m_Layer: 0
-  m_Name: Staff Room B-119(a)
+  m_Name: 'B-119(a) Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14151,7 +13896,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1928388306
 GameObject:
@@ -14234,7 +13979,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1935298142
 GameObject:
@@ -14279,7 +14024,7 @@ GameObject:
   - component: {fileID: 1959975305}
   - component: {fileID: 1959975304}
   m_Layer: 0
-  m_Name: Office A-205
+  m_Name: A-205 Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -14431,7 +14176,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1998617732
 GameObject:
@@ -14445,7 +14190,7 @@ GameObject:
   - component: {fileID: 1998617735}
   - component: {fileID: 1998617734}
   m_Layer: 0
-  m_Name: Lecture Hall B-109
+  m_Name: 'B-109 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -14612,7 +14357,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
 --- !u!1 &2004606506
 GameObject:
@@ -14626,7 +14371,7 @@ GameObject:
   - component: {fileID: 2004606509}
   - component: {fileID: 2004606508}
   m_Layer: 0
-  m_Name: Boys' Washroom
+  m_Name: A-30BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -14793,7 +14538,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!1 &2008036205
 GameObject:
@@ -14807,7 +14552,7 @@ GameObject:
   - component: {fileID: 2008036208}
   - component: {fileID: 2008036207}
   m_Layer: 0
-  m_Name: Library B-119
+  m_Name: 'B-119 Library '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15042,7 +14787,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2024438023
 GameObject:
@@ -15321,7 +15066,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &2040543988
 GameObject:
@@ -15335,7 +15080,7 @@ GameObject:
   - component: {fileID: 2040543991}
   - component: {fileID: 2040543990}
   m_Layer: 0
-  m_Name: Dining Hall A-206
+  m_Name: 'A-206 Dining Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -15406,6 +15151,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040543988}
   m_Mesh: {fileID: -2228417370725966487, guid: 7c699549016730e4ea354e8e666d5b66, type: 3}
+--- !u!1 &2054705902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2054705903}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2054705903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054705902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.23634, y: 9.831146, z: 6.36536}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 63
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2064966837
 GameObject:
   m_ObjectHideFlags: 0
@@ -15418,7 +15194,7 @@ GameObject:
   - component: {fileID: 2064966840}
   - component: {fileID: 2064966839}
   m_Layer: 0
-  m_Name: Lecture Hall B-113
+  m_Name: 'B-113 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -15495,7 +15271,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh37548
+  m_Name: pb_Mesh52518
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15943,7 +15719,7 @@ GameObject:
   - component: {fileID: 2131069132}
   - component: {fileID: 2131069131}
   m_Layer: 0
-  m_Name: Boys' Washroom A-10BW
+  m_Name: 'A-10BW Boys'' Washroom '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -16026,7 +15802,7 @@ GameObject:
   - component: {fileID: 2135242943}
   - component: {fileID: 2135242942}
   m_Layer: 0
-  m_Name: Exam Cell A-207
+  m_Name: A-207 Exam Cell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -16151,7 +15927,7 @@ GameObject:
   - component: {fileID: 3107367652727224802}
   - component: {fileID: 1243999090276547096}
   m_Layer: 0
-  m_Name: Girls' Washroom
+  m_Name: B-20GW Girls' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16466,7 +16242,7 @@ GameObject:
   - component: {fileID: 5856643289330883408}
   - component: {fileID: 6286941004227647815}
   m_Layer: 0
-  m_Name: Lecture Hall B-203
+  m_Name: 'B-203 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16544,7 +16320,7 @@ GameObject:
   - component: {fileID: 5932666498460229604}
   - component: {fileID: 4628347513464878378}
   m_Layer: 0
-  m_Name: Lecture Hall B-202
+  m_Name: 'B-202 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16763,7 +16539,7 @@ GameObject:
   - component: {fileID: 2050809773204794559}
   - component: {fileID: 1079662024758449954}
   m_Layer: 0
-  m_Name: Lecture Hall A-304 CE-2
+  m_Name: 'A-304 CE-2 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -16864,7 +16640,7 @@ GameObject:
   - component: {fileID: 8331573711417076755}
   - component: {fileID: 7358938726501263541}
   m_Layer: 0
-  m_Name: Lecture Hall B-102
+  m_Name: 'B-102 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16938,7 +16714,7 @@ GameObject:
   - component: {fileID: 6749577033729175887}
   - component: {fileID: 6964462607172908406}
   m_Layer: 0
-  m_Name: Dean (PG) B-301
+  m_Name: 'B-301 Dean (PG) '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -17342,7 +17118,7 @@ GameObject:
   - component: {fileID: 3802202281872567546}
   - component: {fileID: 6395083535722908878}
   m_Layer: 0
-  m_Name: Staffroom B-205(a)
+  m_Name: 'B-205(a) Staffroom '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17585,7 +17361,7 @@ GameObject:
   - component: {fileID: 9017783146372186850}
   - component: {fileID: 497116252507446318}
   m_Layer: 0
-  m_Name: Lecture Hall B-02
+  m_Name: 'B-02 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17793,6 +17569,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653311986923}
+  - component: {fileID: 919132149576971858}
   m_Layer: 0
   m_Name: mbcet
   m_TagString: Untagged
@@ -17800,6 +17577,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132149576971858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149576971857}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448bfd8dce8c2234087bf969703acaf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &919861472961741342
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18554,7 +18343,7 @@ GameObject:
   - component: {fileID: 2366555104967954547}
   - component: {fileID: 4640121139569487220}
   m_Layer: 0
-  m_Name: Boys' Washroom
+  m_Name: B-20BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18704,7 +18493,7 @@ GameObject:
   - component: {fileID: 2261168350734756965}
   - component: {fileID: 4129304133188205068}
   m_Layer: 0
-  m_Name: Boys' Washroom
+  m_Name: B-30BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -19092,7 +18881,7 @@ GameObject:
   - component: {fileID: 4581423034338269828}
   - component: {fileID: 1124569292369529459}
   m_Layer: 0
-  m_Name: Professor B-300
+  m_Name: 'B-300 Professor '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -19433,7 +19222,7 @@ GameObject:
   - component: {fileID: 3418485910737133773}
   - component: {fileID: 976723960331909990}
   m_Layer: 0
-  m_Name: Lecture Hall B-05(a)
+  m_Name: 'B-05(a) Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19451,7 +19240,7 @@ GameObject:
   - component: {fileID: 8897240366931399610}
   - component: {fileID: 3129779573345774406}
   m_Layer: 0
-  m_Name: Lecture Hall A-308 EE-2
+  m_Name: 'A-308 EE-2 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -19625,7 +19414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7849210426661937087}
   m_LocalRotation: {x: 3.322684e-11, y: 0.99998444, z: 0.000000037749725, w: 0.005575942}
-  m_LocalPosition: {x: -4.699, y: -1.2648921, z: 13.532}
+  m_LocalPosition: {x: -5.18, y: -1.2648921, z: 13.53}
   m_LocalScale: {x: 0.8017341, y: 0.55772734, z: 0.57561976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19834,7 +19623,7 @@ GameObject:
   - component: {fileID: 6900070842936696108}
   - component: {fileID: 7653977287113146201}
   m_Layer: 0
-  m_Name: Aryabhata Hall B-303
+  m_Name: 'B-303 Aryabhata Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -19912,7 +19701,7 @@ GameObject:
   - component: {fileID: 1195439189504809138}
   - component: {fileID: 1838182524561881634}
   m_Layer: 0
-  m_Name: Staff Washroom
+  m_Name: B-10SW Staff Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20171,7 +19960,7 @@ GameObject:
   - component: {fileID: 7896021338474784752}
   - component: {fileID: 2821655903854954151}
   m_Layer: 0
-  m_Name: 'PG Lecture Hall '
+  m_Name: 'B-30PG PG Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -20189,7 +19978,7 @@ GameObject:
   - component: {fileID: 6214807057365867806}
   - component: {fileID: 4127316761445151239}
   m_Layer: 0
-  m_Name: Lecture Hall B-302
+  m_Name: 'B-302 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -20340,7 +20129,7 @@ GameObject:
   - component: {fileID: 8482381505050733611}
   - component: {fileID: 8418640414722007678}
   m_Layer: 0
-  m_Name: Lecture Hall A-305 CS-1
+  m_Name: A-305 CS-1 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -20972,7 +20761,7 @@ GameObject:
   - component: {fileID: 6089389933338505553}
   - component: {fileID: 3929435374310818938}
   m_Layer: 0
-  m_Name: IC Lab B-105(a)
+  m_Name: B-105(a) IC Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21055,7 +20844,7 @@ GameObject:
   - component: {fileID: 4668013534199497851}
   - component: {fileID: 8567717000565365858}
   m_Layer: 0
-  m_Name: Girls' Washroom
+  m_Name: A-30GW Girls' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -21429,7 +21218,7 @@ GameObject:
   - component: {fileID: 6876059421922725393}
   - component: {fileID: 5384421884421841370}
   m_Layer: 0
-  m_Name: Boys' Washroom
+  m_Name: B-0BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22655,7 +22444,7 @@ GameObject:
   - component: {fileID: 1728479365183988733}
   - component: {fileID: 8391255556658682683}
   m_Layer: 0
-  m_Name: HoD CS B-200
+  m_Name: 'B-200 HoD CS '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23241,7 +23030,7 @@ GameObject:
   - component: {fileID: 5816652059338538598}
   - component: {fileID: 4059279301228501007}
   m_Layer: 0
-  m_Name: Boys' Washroom
+  m_Name: B-10BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23480,7 +23269,7 @@ GameObject:
   - component: {fileID: 1079302431607335771}
   - component: {fileID: 5003168027315511648}
   m_Layer: 0
-  m_Name: TPO
+  m_Name: B-20TP TPO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24289,7 +24078,7 @@ GameObject:
   - component: {fileID: 4938768175295392198}
   - component: {fileID: 4876285996734156559}
   m_Layer: 0
-  m_Name: HOD EC B-101
+  m_Name: 'B-101 HOD EC '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24662,7 +24451,7 @@ GameObject:
   - component: {fileID: 8307813400497408971}
   - component: {fileID: 2128355836769912695}
   m_Layer: 0
-  m_Name: Shannon Hall B-104
+  m_Name: 'B-104 Shannon Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26066,12 +25855,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671717966064065735}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -3.6945283, y: 0.59000015, z: 3.9700012}
-  m_LocalScale: {x: 0.1087211, y: 4.889466, z: 0.10300324}
+  m_LocalPosition: {x: -14.131632, y: 4.4900002, z: 41.031006}
+  m_LocalScale: {x: 0.1087211, y: 4.889465, z: 0.103003226}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1758951048}
-  m_RootOrder: 11
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5074040483504854804
 GameObject:
@@ -26147,7 +25936,7 @@ GameObject:
   - component: {fileID: 5640423263972243064}
   - component: {fileID: 5425505346789883337}
   m_Layer: 0
-  m_Name: 'Girls'' Washroom '
+  m_Name: 'B-0GW Girls'' Washroom '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26342,7 +26131,7 @@ GameObject:
   - component: {fileID: 6646400850895117490}
   - component: {fileID: 7152520436465453590}
   m_Layer: 0
-  m_Name: Lecture Hall B-205
+  m_Name: 'B-205 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29593,7 +29382,7 @@ GameObject:
   - component: {fileID: 7250595022089938362}
   - component: {fileID: 2726731778270748488}
   m_Layer: 0
-  m_Name: Discussion Room B-304(b)
+  m_Name: 'B-304(b) Discussion Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -29686,7 +29475,7 @@ GameObject:
   - component: {fileID: 6464393433079985023}
   - component: {fileID: 7841272780879885343}
   m_Layer: 0
-  m_Name: Advanced Communication Lab B-105(b)
+  m_Name: 'B-105(b) Advanced Communication Lab '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29982,7 +29771,7 @@ GameObject:
   - component: {fileID: 677407277710497504}
   - component: {fileID: 2816831734307766425}
   m_Layer: 0
-  m_Name: Pascal Hall B-304(a)
+  m_Name: 'B-304(a) Pascal Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -30099,7 +29888,7 @@ GameObject:
   - component: {fileID: 215592838595252223}
   - component: {fileID: 1558643248844226605}
   m_Layer: 0
-  m_Name: HOD A-302
+  m_Name: A-302 HOD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -30209,7 +29998,7 @@ GameObject:
   - component: {fileID: 1147230179287987725}
   - component: {fileID: 6126031748808125416}
   m_Layer: 0
-  m_Name: Dean RD B-200(a)
+  m_Name: 'B-200(a) Dean RD '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30595,7 +30384,7 @@ GameObject:
   - component: {fileID: 7536177112676310736}
   - component: {fileID: 945454400378624104}
   m_Layer: 0
-  m_Name: Lecture Hall B-03
+  m_Name: 'B-03 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30613,7 +30402,7 @@ GameObject:
   - component: {fileID: 3901834440844588422}
   - component: {fileID: 6272350531631111341}
   m_Layer: 0
-  m_Name: HOD B-01
+  m_Name: 'B-01 HOD '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30791,9 +30580,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe9ab3b162fb77459bba3d66c143594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camTarg: {fileID: 1855151114}
-  camOffset: {x: 1000, y: 1000, z: 1000}
-  smoothFactor: 0.5
+  target: {fileID: 0}
+  distance: 3
+  height: 1.5
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!23 &7375753292166958505
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31104,7 +30896,7 @@ GameObject:
   - component: {fileID: 8401952775279696450}
   - component: {fileID: 7416691524126540467}
   m_Layer: 0
-  m_Name: Lecture Hall A-306 CS-2
+  m_Name: 'A-306 CS-2 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -31195,7 +30987,7 @@ GameObject:
   - component: {fileID: 8542036706278438084}
   - component: {fileID: 3251961985374039236}
   m_Layer: 0
-  m_Name: Lecture Hall B-05
+  m_Name: 'B-05 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31786,7 +31578,7 @@ GameObject:
   - component: {fileID: 1075669132066625499}
   - component: {fileID: 6294062970333056525}
   m_Layer: 0
-  m_Name: Staff Room B-0A
+  m_Name: 'B-0A Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31857,7 +31649,7 @@ GameObject:
   - component: {fileID: 420694216357461735}
   - component: {fileID: 1595097082162939901}
   m_Layer: 0
-  m_Name: Lecture Hall B-103
+  m_Name: 'B-103 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32778,7 +32570,7 @@ GameObject:
   - component: {fileID: 3404236367877367898}
   - component: {fileID: 6027543245847222004}
   m_Layer: 0
-  m_Name: Lecture Hall A-307 CE-1
+  m_Name: 'A-307 CE-1 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -32976,7 +32768,7 @@ GameObject:
   - component: {fileID: 6094484959413298164}
   - component: {fileID: 8436230607140016863}
   m_Layer: 0
-  m_Name: Faraday Hall B-04
+  m_Name: 'B-04 Faraday Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33294,7 +33086,7 @@ GameObject:
   - component: {fileID: 3260616448621260928}
   - component: {fileID: 7762067042637588753}
   m_Layer: 0
-  m_Name: Chemistry Lab/Physics Lab A-303
+  m_Name: 'A-303 Chemistry Lab/Physics Lab '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -33437,7 +33229,7 @@ GameObject:
   - component: {fileID: 8894691112986457090}
   - component: {fileID: 6745302439190744271}
   m_Layer: 0
-  m_Name: Staff Room A-301
+  m_Name: 'A-301 Staff Room '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -33721,7 +33513,7 @@ GameObject:
   - component: {fileID: 992621563828768808}
   - component: {fileID: 4349925143077670690}
   m_Layer: 0
-  m_Name: Girls' Washroom
+  m_Name: B-30GW Girls' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -34084,7 +33876,7 @@ GameObject:
   - component: {fileID: 1703912659098501609}
   - component: {fileID: 8102382928286700731}
   m_Layer: 0
-  m_Name: Lecture Hall A-304(A) EE-1
+  m_Name: 'A-304(A) EE-1 Lecture Hall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -34102,7 +33894,7 @@ GameObject:
   - component: {fileID: 4902934333110795144}
   - component: {fileID: 1099556530274496458}
   m_Layer: 0
-  m_Name: Staffroom B-100
+  m_Name: 'B-100 Staffroom '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

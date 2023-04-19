@@ -5,6 +5,12 @@
        
        public Transform goal;
        string str1,str2;
+       public Transform resetLocation;
+    private NavMeshAgent _navMeshAgent;
+    private Vector3 _initialPosition;
+
+
+    
        void Start () {
          switch(DropDownHandler1.sendercopy1)
          {
@@ -16,6 +22,8 @@
             case 5: str1="AI Lab B-204"; break;
             case 6: str1="Lecture Hall B-203"; break;
          }
+         //_navMeshAgent = GetComponent<NavMeshAgent>();
+       
          switch(DropDownHandler2.sendercopy2)
          {
             case 0: str2="Girls' Washroom A-10GW"; break;
@@ -27,8 +35,21 @@
             case 6: str2="Lecture Hall B-203"; break;
          }
           NavMeshAgent agent = GetComponent<NavMeshAgent>();
+           _initialPosition = transform.position;
           GameObject.Find("Initial location").transform.position=GameObject.Find(str1).transform.position;
           goal.transform.position =GameObject.Find(str2).transform.position; 
           agent.destination=goal.position;
        }
+       public void ResetAgentPosition()
+    {
+        if (resetLocation != null)
+        {
+            _navMeshAgent.Warp(resetLocation.position);
+        }
+        else
+        {
+            _navMeshAgent.Warp(_initialPosition);
+        }
     }
+}
+    
