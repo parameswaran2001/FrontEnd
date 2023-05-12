@@ -1,0 +1,94 @@
+A-101 Visitors Room 
+A-102 Staff Room
+A-103 Staff Room 
+A-104 Basic Electronics Lab
+A-105 Language Lab 
+A-106 ME-2 Lecture Hall 
+A-107 ME-1 Lecture Hall 
+A-108 EC-2 Lecture Hall
+A-109 EC-1 Lecture Hall 
+A-10BW Boys' Washroom 
+A-10GW Girls' Washroom 
+A-201 Conference Hall 
+A-203 Principal 
+A-205 Office
+A-206 Dining Hall 
+A-207 Exam Cell
+A-208 Staff Room
+A-209 Toilet 
+A-20BO Bursar's Office
+A-20BR Board Room
+A-20S Senatus Hall 
+A-20W Washroom 
+A-301 Staff Room 
+A-302 HOD
+A-303 Chemistry Lab/Physics Lab 
+A-304 CE-2 Lecture Hall 
+A-304(A) EE-1 Lecture Hall 
+A-305 CS-1 Lecture Hall
+A-306 CS-2 Lecture Hall 
+A-307 CE-1 Lecture Hall 
+A-308 EE-2 Lecture Hall 
+A-30BW Boys' Washroom
+A-30GW Girls' Washroom
+A-30VP Vice Principal's Office
+B-01 HOD 
+B-02 Lecture Hall 
+B-03 Lecture Hall 
+B-04 Faraday Hall 
+B-04(A)
+B-05 Lecture Hall 
+B-05(a) Lecture Hall 
+B-09 (1) Staff Room 
+B-09 Staff Room 
+B-0A Staff Room 
+B-0BW Boys' Washroom
+B-0GW Girls' Washroom 
+B-100 Staffroom 
+B-101 HOD EC 
+B-102 Lecture Hall 
+B-103 Lecture Hall 
+B-104 Shannon Hall 
+B-104(a)
+B-105(a) IC Lab
+B-105(b) Advanced Communication Lab 
+B-109 Lecture Hall 
+B-10BW Boys' Washroom
+B-10SW Staff Washroom
+B-11 EC & M1 Lab 
+B-111 Staff Room 
+B-113 Lecture Hall 
+B-117 Digital Electronics Lab 
+B-119 Library 
+B-119(a) Staff Room 
+B-13 Staff Room 
+B-200 HoD CS 
+B-200(a) Dean RD 
+B-202 Lecture Hall 
+B-203 Lecture Hall 
+B-204 AI Lab 
+B-205 Lecture Hall 
+B-205(a) Staffroom 
+B-209 Project Lab -2 
+B-20BW Boys' Washroom
+B-20GW Girls' Washroom
+B-20MC Maintainance Cell
+B-20TP TPO
+B-211 Staff Room 
+B-213 Lecture Hall 
+B-217 Communication Engineering Lab 
+B-219 Staff Room 
+B-300 Professor 
+B-300(a) Staff Room (CS) 
+B-301 Dean (PG) 
+B-302 Lecture Hall 
+B-303 Aryabhata Hall 
+B-304(a) Pascal Hall 
+B-304(b) Discussion Room 
+B-30BW Boys' Washroom
+B-30GW Girls' Washroom
+B-30PG PG Lecture Hall 
+B-213 Lecture Hall 
+B-20MC Maintainance Cell
+Reception
+Stage
