@@ -5,7 +5,7 @@ public class TargetDestinationDropdown : MonoBehaviour
 {
     public Dropdown dropdown;
 
-    public static string selectedValue;
+    public static string selectedValue2;
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class TargetDestinationDropdown : MonoBehaviour
 
     void DropdownValueChanged(Dropdown dropdown)
     {
-        selectedValue = dropdown.options[dropdown.value].text;
-        Debug.Log("Selected value: " + selectedValue);
+        selectedValue2 = dropdown.options[dropdown.value].text;
+        Debug.Log("Selected value: " + selectedValue2);
     }
 }

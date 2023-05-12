@@ -5,7 +5,7 @@ public class CurrentLocationDropdown : MonoBehaviour
 {
     public Dropdown dropdown;
 
-    public static string selectedValue;
+    public static string selectedValue1;
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class CurrentLocationDropdown : MonoBehaviour
 
     void DropdownValueChanged(Dropdown dropdown)
     {
-        selectedValue = dropdown.options[dropdown.value].text;
-        Debug.Log("Selected value: " + selectedValue);
+        selectedValue1 = dropdown.options[dropdown.value].text;
+        Debug.Log("Selected value: " + selectedValue1);
     }
 }
