@@ -5,7 +5,7 @@ public class CurrentLocationDropdown : MonoBehaviour
 {
     public Dropdown dropdown;
 
-    public static string selectedValue1;
+    public static string selectedValue1="A-101 Visitors Room";
 
     void Start()
     {

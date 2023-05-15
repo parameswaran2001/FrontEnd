@@ -5,7 +5,7 @@ public class TargetDestinationDropdown : MonoBehaviour
 {
     public Dropdown dropdown;
 
-    public static string selectedValue2;
+    public static string selectedValue2="A-101 Visitors Room";
 
     void Start()
     {
