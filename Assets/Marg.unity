@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935d3df591840a846978fdef7558e5a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1102425037}
+  goal: {fileID: 0}
 --- !u!4 &139710741
 Transform:
   m_ObjectHideFlags: 0
