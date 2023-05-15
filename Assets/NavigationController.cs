@@ -15,7 +15,7 @@ using UnityEngine;
             Debug.Log(TargetDestinationDropdown.selectedValue2);
           NavMeshAgent agent = GetComponent<NavMeshAgent>();
           GameObject.Find("Initial location").transform.position=GameObject.Find(CurrentLocationDropdown.selectedValue1).transform.position;
-            goal.transform.position=GameObject.Find(TargetDestinationDropdown.selectedValue2).transform.position; 
+           goal.transform.position=GameObject.Find(TargetDestinationDropdown.selectedValue2).transform.position; 
           agent.destination=goal.position; 
        }
     }
