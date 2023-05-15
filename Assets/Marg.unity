@@ -106,7 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.2
+    agentRadius: 0.1
     agentHeight: 0.8
     agentSlope: 55
     agentClimb: 0.4
@@ -114,7 +114,7 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.06666667
+    cellSize: 0.033333335
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 52082617}
   - component: {fileID: 52082616}
   m_Layer: 0
-  m_Name: 'A-209 Toilet '
+  m_Name: A-209 Toilet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -1111,7 +1111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935d3df591840a846978fdef7558e5a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
+  currentLocation: A-104 Basic Electronics Lab
+  targetDestination: A-304 CE-2 Lecture Hall
 --- !u!4 &139710741
 Transform:
   m_ObjectHideFlags: 0
@@ -1222,7 +1223,7 @@ GameObject:
   - component: {fileID: 163157637}
   - component: {fileID: 163157636}
   m_Layer: 0
-  m_Name: 'A-109 EC-1 Lecture Hall '
+  m_Name: A-109 EC-1 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -1813,7 +1814,7 @@ GameObject:
   - component: {fileID: 230676635}
   - component: {fileID: 230676634}
   m_Layer: 0
-  m_Name: 'A-106 ME-2 Lecture Hall '
+  m_Name: A-106 ME-2 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -3476,7 +3477,7 @@ GameObject:
   - component: {fileID: 464591989}
   - component: {fileID: 464591988}
   m_Layer: 0
-  m_Name: 'A-20W Washroom '
+  m_Name: A-20W Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -3806,7 +3807,7 @@ GameObject:
   - component: {fileID: 527570363}
   - component: {fileID: 527570362}
   m_Layer: 0
-  m_Name: 'A-107 ME-1 Lecture Hall '
+  m_Name: A-107 ME-1 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -4221,7 +4222,7 @@ GameObject:
   - component: {fileID: 581138352}
   - component: {fileID: 581138351}
   m_Layer: 0
-  m_Name: 'A-201 Conference Hall '
+  m_Name: A-201 Conference Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -5145,7 +5146,7 @@ GameObject:
   - component: {fileID: 791329803}
   - component: {fileID: 791329802}
   m_Layer: 0
-  m_Name: 'A-20S Senatus Hall '
+  m_Name: A-20S Senatus Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -6688,7 +6689,7 @@ GameObject:
   - component: {fileID: 968115754}
   - component: {fileID: 968115753}
   m_Layer: 0
-  m_Name: 'A-103 Staff Room '
+  m_Name: A-103 Staff Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -9049,7 +9050,7 @@ GameObject:
   - component: {fileID: 1245454996}
   - component: {fileID: 1245454995}
   m_Layer: 0
-  m_Name: 'A-105 Language Lab '
+  m_Name: A-105 Language Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -10740,7 +10741,7 @@ GameObject:
   - component: {fileID: 1470011429}
   - component: {fileID: 1470011428}
   m_Layer: 0
-  m_Name: 'A-203 Principal '
+  m_Name: A-203 Principal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -11251,7 +11252,7 @@ GameObject:
   - component: {fileID: 1577846251}
   - component: {fileID: 1577846250}
   m_Layer: 0
-  m_Name: 'A-10GW Girls'' Washroom '
+  m_Name: A-10GW Girls' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -13292,7 +13293,7 @@ GameObject:
   - component: {fileID: 1852223389}
   - component: {fileID: 1852223388}
   m_Layer: 0
-  m_Name: 'A-101 Visitors Room '
+  m_Name: A-101 Visitors Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -13497,7 +13498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935d3df591840a846978fdef7558e5a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1102425037}
+  currentLocation: A-104 Basic Electronics Lab
+  targetDestination: A-304 CE-2 Lecture Hall
 --- !u!1 &1862988983
 GameObject:
   m_ObjectHideFlags: 0
@@ -15124,7 +15126,7 @@ GameObject:
   - component: {fileID: 2040543991}
   - component: {fileID: 2040543990}
   m_Layer: 0
-  m_Name: 'A-206 Dining Hall '
+  m_Name: A-206 Dining Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -15732,7 +15734,7 @@ GameObject:
   - component: {fileID: 2131069132}
   - component: {fileID: 2131069131}
   m_Layer: 0
-  m_Name: 'A-10BW Boys'' Washroom '
+  m_Name: A-10BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -16552,7 +16554,7 @@ GameObject:
   - component: {fileID: 2050809773204794559}
   - component: {fileID: 1079662024758449954}
   m_Layer: 0
-  m_Name: 'A-304 CE-2 Lecture Hall '
+  m_Name: A-304 CE-2 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -19241,7 +19243,7 @@ GameObject:
   - component: {fileID: 8897240366931399610}
   - component: {fileID: 3129779573345774406}
   m_Layer: 0
-  m_Name: 'A-308 EE-2 Lecture Hall '
+  m_Name: A-308 EE-2 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -19844,7 +19846,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163480801462861188}
   m_LocalRotation: {x: 3.3226904e-11, y: 0.99998444, z: 0.000000037749714, w: 0.005575942}
-  m_LocalPosition: {x: -4.3619742, y: -3.543797, z: -12.625298}
+  m_LocalPosition: {x: -4.84, y: -3.543797, z: -12.63}
   m_LocalScale: {x: 0.86557573, y: 0.5170846, z: 0.57561976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25666,7 +25668,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2193423312941045370}
   m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -1.3445283, y: 0.48715138, z: -0.06569336}
+  m_LocalPosition: {x: -1.55, y: 0.48715138, z: -0.06569336}
   m_LocalScale: {x: -2.5221035, y: -14.073698, z: -1.6325486}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28653,7 +28655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2359407630505080703}
   m_LocalRotation: {x: 3.3226904e-11, y: 0.99998444, z: 0.000000037749714, w: 0.005575942}
-  m_LocalPosition: {x: -4.3619742, y: -1.2947369, z: -12.625298}
+  m_LocalPosition: {x: -4.73, y: -1.2947369, z: -12.63}
   m_LocalScale: {x: 0.86557573, y: 0.5170846, z: 0.57561976}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29059,7 +29061,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7749953498050202247}
   m_LocalRotation: {x: 0.000000021805853, y: 0.01821766, z: -0.0000000029345146, w: 0.99983406}
-  m_LocalPosition: {x: -4.274614, y: -0.010634899, z: -12.357454}
+  m_LocalPosition: {x: -4.274614, y: -0.06, z: -12.357454}
   m_LocalScale: {x: 0.88153577, y: 0.55617154, z: 0.57563394}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30897,7 +30899,7 @@ GameObject:
   - component: {fileID: 8401952775279696450}
   - component: {fileID: 7416691524126540467}
   m_Layer: 0
-  m_Name: 'A-306 CS-2 Lecture Hall '
+  m_Name: A-306 CS-2 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -32571,7 +32573,7 @@ GameObject:
   - component: {fileID: 3404236367877367898}
   - component: {fileID: 6027543245847222004}
   m_Layer: 0
-  m_Name: 'A-307 CE-1 Lecture Hall '
+  m_Name: A-307 CE-1 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -33087,7 +33089,7 @@ GameObject:
   - component: {fileID: 3260616448621260928}
   - component: {fileID: 7762067042637588753}
   m_Layer: 0
-  m_Name: 'A-303 Chemistry Lab/Physics Lab '
+  m_Name: A-303 Chemistry Lab/Physics Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -33230,7 +33232,7 @@ GameObject:
   - component: {fileID: 8894691112986457090}
   - component: {fileID: 6745302439190744271}
   m_Layer: 0
-  m_Name: 'A-301 Staff Room '
+  m_Name: A-301 Staff Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -33877,7 +33879,7 @@ GameObject:
   - component: {fileID: 1703912659098501609}
   - component: {fileID: 8102382928286700731}
   m_Layer: 0
-  m_Name: 'A-304(A) EE-1 Lecture Hall '
+  m_Name: A-304(A) EE-1 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1

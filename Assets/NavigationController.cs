@@ -84,7 +84,7 @@ public class NavigationController : MonoBehaviour
        }
     }
 */
-using UnityEngine;
+/*using UnityEngine;
     using UnityEngine.AI;
     
     public class NavigationController : MonoBehaviour {
@@ -92,13 +92,46 @@ using UnityEngine;
        public Transform goal;
        
        void Start () {
-        Debug.Log(CurrentLocationDropdown.selectedValue1);
-            Debug.Log(TargetDestinationDropdown.selectedValue2);
+        //Debug.Log(CurrentLocationDropdown.selectedValue1);
+            //Debug.Log(TargetDestinationDropdown.selectedValue2);
            
           NavMeshAgent agent = GetComponent<NavMeshAgent>();
-           if(agent!=null){
-          agent.transform.position=GameObject.Find(CurrentLocationDropdown.selectedValue1).transform.position;
-        goal.transform.position =GameObject.Find(TargetDestinationDropdown.selectedValue2).transform.position; 
+          
           agent.destination = goal.position;}
-      }
-  }
+  }*/
+using UnityEngine;
+using UnityEngine.AI;
+
+public class NavigationController : MonoBehaviour
+{
+    public string currentLocation;
+    public string targetDestination;
+
+    private NavMeshAgent agent;
+
+    private void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        SetAgentDestination();
+    }
+
+    private void SetAgentDestination()
+    {
+        currentLocation = CurrentLocationDropdown.selectedValue1;
+        targetDestination = TargetDestinationDropdown.selectedValue2;
+
+        GameObject currentLocationObj = GameObject.Find(currentLocation);
+        GameObject targetDestinationObj = GameObject.Find(targetDestination);
+
+        if (currentLocationObj != null && targetDestinationObj != null)
+        {
+            agent.Warp(currentLocationObj.transform.position);
+            agent.SetDestination(targetDestinationObj.transform.position);
+        }
+        else
+        {
+            Debug.LogError("Could not find current location or target destination GameObjects.");
+        }
+    }
+}
+
