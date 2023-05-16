@@ -85,10 +85,22 @@ B-302 Lecture Hall
 B-303 Aryabhata Hall 
 B-304(a) Pascal Hall 
 B-304(b) Discussion Room 
+B-308 Software Lab
+B-309 Power Electronics & Drives Lab
 B-30BW Boys' Washroom
 B-30GW Girls' Washroom
-B-30PG PG Lecture Hall 
-B-213 Lecture Hall 
-B-20MC Maintainance Cell
+B-30PG PG Lecture Hall
+B-310 PG Lecture Hall
+B-310(a) Staff Room
+B-311 Staff Room
+B-311(a) Lecture Hall (PG)
+B-311(b) Staff Room
+B-312 Lecture Hall
+B-313 Lecture Hall (PG)
+B-314 PG Lecture Hall
+B-315 PG Lecture Hall
+B-315(A) ISRO Respond Project
+B-316 PG and R&D Lab
+B-317 PG Lab
 Reception
 Stage

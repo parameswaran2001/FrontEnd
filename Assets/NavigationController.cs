@@ -125,6 +125,7 @@ public class NavigationController : MonoBehaviour
 
         if (currentLocationObj != null && targetDestinationObj != null)
         {
+            agent.speed=2.5f;
             agent.Warp(currentLocationObj.transform.position);
             agent.SetDestination(targetDestinationObj.transform.position);
         }
