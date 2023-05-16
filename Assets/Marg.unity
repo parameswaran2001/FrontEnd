@@ -2648,7 +2648,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298686526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.5, y: 1.91, z: 38.14}
+  m_LocalPosition: {x: -41.5, y: 2.05, z: 37.05}
   m_LocalScale: {x: 0.11808, y: 1, z: 2.6842}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3313,7 +3313,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh282384
+  m_Name: pb_Mesh28036
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3824,7 +3824,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh281730
+  m_Name: pb_Mesh27340
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6138,7 +6138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841538337}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: -2.58}
+  m_LocalPosition: {x: -32.977295, y: 1.42, z: -2.58}
   m_LocalScale: {x: 1.2818992, y: 0.60703284, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13658,7 +13658,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh283076
+  m_Name: pb_Mesh28754
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16084,7 +16084,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh281898
+  m_Name: pb_Mesh27508
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16743,7 +16743,7 @@ GameObject:
   m_Name: B-20GW Girls' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &26844662471291209
@@ -16761,7 +16761,7 @@ GameObject:
   m_Name: B-04(A)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &37364540684731192
@@ -16790,7 +16790,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7917349904538522676}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: -2.172306}
+  m_LocalPosition: {x: -32.977295, y: -5.01, z: -2.172306}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17058,7 +17058,7 @@ GameObject:
   m_Name: B-203 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &155222959434978438
@@ -17136,7 +17136,7 @@ GameObject:
   m_Name: B-202 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &188196709367518057
@@ -17456,7 +17456,7 @@ GameObject:
   m_Name: B-102 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &370415571840505303
@@ -17493,7 +17493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3559817854072730677}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: -12.501417}
+  m_LocalPosition: {x: -32.977295, y: -2.958, z: -12.501417}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17926,7 +17926,7 @@ GameObject:
   m_Name: B-205(a) Staffroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &595139337728318278
@@ -18002,7 +18002,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574869080561379629}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.9773, y: -5.1020017, z: 7.669014}
+  m_LocalPosition: {x: -32.9773, y: -5.12, z: 7.669014}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18069,7 +18069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827667731728322122}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: 12.082848}
+  m_LocalPosition: {x: -32.977295, y: -2.94, z: 12.082848}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18151,7 +18151,7 @@ GameObject:
   m_Name: B-02 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &770456803363526806
@@ -19052,7 +19052,7 @@ GameObject:
   m_Name: B-20BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &1209519543273929978
@@ -19526,7 +19526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9017328541790188701}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: -2.172306}
+  m_LocalPosition: {x: -32.977295, y: -2.911, z: -2.172306}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19881,7 +19881,7 @@ GameObject:
   m_Name: B-05(a) Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &1582813066959919970
@@ -20172,7 +20172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7331741613154117041}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: 3.6997414}
+  m_LocalPosition: {x: -32.977295, y: -5.1, z: 3.6997414}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20322,7 +20322,7 @@ GameObject:
   m_Name: B-10SW Staff Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &1838182524561881634
@@ -20794,7 +20794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5089668104887161809}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: 12.082848}
+  m_LocalPosition: {x: -32.977295, y: -5.14, z: 12.082848}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21280,7 +21280,7 @@ GameObject:
   m_Name: B-105(a) IC Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2435220544617392136
@@ -21737,7 +21737,7 @@ GameObject:
   m_Name: B-0BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &2597632054599817946
@@ -22304,7 +22304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7152111983134215705}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: -6.142372}
+  m_LocalPosition: {x: -32.977295, y: 1.41, z: -6.142372}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22342,7 +22342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401122467875274383}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: 1.9453354}
+  m_LocalPosition: {x: -32.977295, y: 1.41, z: 1.9453354}
   m_LocalScale: {x: 1.2818992, y: 0.76208436, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22732,7 +22732,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26844662471291209}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: -8.12701}
+  m_LocalPosition: {x: -32.977295, y: -5.12, z: -8.12701}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22747,7 +22747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7045030354236885202}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: 5.684376}
+  m_LocalPosition: {x: -32.977295, y: -2.97, z: 5.684376}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22926,7 +22926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767643755826663936}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: -4.157734}
+  m_LocalPosition: {x: -32.977295, y: -5.09, z: -4.157734}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22948,7 +22948,7 @@ GameObject:
   m_Name: B-200 HoD CS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &3209139654194493203
@@ -22977,7 +22977,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2430482054534889020}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: 7.669014}
+  m_LocalPosition: {x: -32.977295, y: -2.98, z: 7.669014}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23110,7 +23110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4103881766760672168}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: 1.9453354}
+  m_LocalPosition: {x: -32.977295, y: -2.888, z: 1.9453354}
   m_LocalScale: {x: 1.2818992, y: 0.76208436, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23511,7 +23511,7 @@ GameObject:
   m_Name: B-10BW Boys' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &3567318533279967691
@@ -23750,7 +23750,7 @@ GameObject:
   m_Name: B-20TP TPO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &3655000510515840256
@@ -23969,7 +23969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6972127845128743731}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: -8.12701}
+  m_LocalPosition: {x: -32.977295, y: 1.42, z: -8.12701}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24517,7 +24517,7 @@ GameObject:
   m_Name: B-101 HOD EC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &4106205126924873431
@@ -24796,7 +24796,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8571162131062915617}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: -6.142372}
+  m_LocalPosition: {x: -32.977295, y: -5.07, z: -6.142372}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24872,7 +24872,7 @@ GameObject:
   m_Name: B-104 Shannon Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &4278193881612363718
@@ -24901,7 +24901,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980921582949823554}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: 6.68}
+  m_LocalPosition: {x: -32.977295, y: 1.44, z: 6.68}
   m_LocalScale: {x: 1.2818992, y: 2.0153244, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25426,7 +25426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366455554468834479}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: -4.157734}
+  m_LocalPosition: {x: -32.977295, y: -2.955, z: -4.157734}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25491,7 +25491,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5194334309781741077}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: -8.12701}
+  m_LocalPosition: {x: -32.977295, y: -2.987, z: -8.12701}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26316,7 +26316,7 @@ GameObject:
   m_Name: B-0GW Girls' Washroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &5092870684883404716
@@ -26493,7 +26493,7 @@ GameObject:
   m_Name: B-205 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5191685467335565849
@@ -26526,7 +26526,7 @@ GameObject:
   m_Name: B-104(a)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5210025417401591037
@@ -26537,7 +26537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292043252810869522}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.31, z: -12.501417}
+  m_LocalPosition: {x: -32.977295, y: 1.42, z: -12.501417}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28229,7 +28229,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7333631255331378770}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: 1.9453354}
+  m_LocalPosition: {x: -32.977295, y: -5.11, z: 1.9453354}
   m_LocalScale: {x: 1.2818992, y: 0.76208436, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28865,7 +28865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801220214004470448}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: 3.684658}
+  m_LocalPosition: {x: -32.977295, y: 1.43, z: 3.684658}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29668,7 +29668,7 @@ GameObject:
   m_Name: B-105(b) Advanced Communication Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &7048900227317206600
@@ -30149,7 +30149,7 @@ GameObject:
   m_Name: B-200(a) Dean RD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7199814124217327699
@@ -30493,7 +30493,7 @@ GameObject:
   m_Name: B-03 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &7333631255331378770
@@ -30511,7 +30511,7 @@ GameObject:
   m_Name: B-01 HOD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!23 &7339356832031786532
@@ -30742,7 +30742,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998131546758285139}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: -4.157734}
+  m_LocalPosition: {x: -32.977295, y: 1.41, z: -4.157734}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31088,7 +31088,7 @@ GameObject:
   m_Name: B-05 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &7684375355353303908
@@ -31671,7 +31671,7 @@ GameObject:
   m_Name: B-0A Staff Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7924007673318512312
@@ -31705,7 +31705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7664650468745273359}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: 5.684376}
+  m_LocalPosition: {x: -32.977295, y: -5.1, z: 5.684376}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31742,7 +31742,7 @@ GameObject:
   m_Name: B-103 Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!1 &7979137831271204277
@@ -32682,7 +32682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7975042475595251948}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: 3.6997414}
+  m_LocalPosition: {x: -32.977295, y: -2.96, z: 3.6997414}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32846,7 +32846,7 @@ GameObject:
   m_Name: B-04 Faraday Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &8571526814854531746
@@ -32887,7 +32887,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4262787526461882989}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -2.8988397, z: -6.142372}
+  m_LocalPosition: {x: -32.977295, y: -2.944, z: -6.142372}
   m_LocalScale: {x: 1.2818992, y: 0.99231946, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32962,7 +32962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2596957925729626938}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: -5.102001, z: -12.501417}
+  m_LocalPosition: {x: -32.977295, y: -5.11, z: -12.501417}
   m_LocalScale: {x: 1.2818992, y: 0.99231935, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33957,7 +33957,7 @@ GameObject:
   m_Name: B-100 Staffroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &9017783146372186850
@@ -34091,7 +34091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454576027215556078}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: -1.59}
+  m_LocalPosition: {x: -32.977295, y: 1.44, z: -1.59}
   m_LocalScale: {x: 1.2818992, y: 0.3901899, z: 1.0928026}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34236,7 +34236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8869669039396943358}
   m_LocalRotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
-  m_LocalPosition: {x: -32.977295, y: 1.4015985, z: 12.08}
+  m_LocalPosition: {x: -32.977295, y: 1.43, z: 12.08}
   m_LocalScale: {x: 1.29318, y: 0.97689724, z: 1.1024194}
   m_ConstrainProportionsScale: 0
   m_Children: []
